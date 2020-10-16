@@ -54,7 +54,7 @@ function reviewStock(stock, query) {
 		}
 	}
 
-	console.log(JSON.stringify(stock, null, 2));
+	//console.log(JSON.stringify(stock, null, 2));
 
 	//EPS surprise		
 	if ((stock && stock.earnings && stock.earnings && stock.earnings.earnings && stock.earnings.earnings[0].EPSSurpriseDollar) && (stock.earnings.earnings[0].EPSSurpriseDollar > 0)) {
@@ -181,7 +181,7 @@ function reviewStock(stock, query) {
 ///MUST USE UP OR DOWN
 var responses = {
 	"upMover" : ["@ had a good day gaining # points on the day", "The bulls are pushing on @ with a # point increase on the day"],
-	"downMover" : ["@ was hit, losing # points on the day", "The bears are pulling down @ with a # point decrease on the day"],
+	"downMover" : ["@ was hit, losing # points on the day", "The bears are pushing down @ with a # point decrease on the day"],
 	"week52High" : ["@ is around its 52 week high, I like it", "At a price of $#, @ is at a 52 week high!"],
 	"week52Low" : ["@ is close to its 52 week low!, may want to stay away", "Things aren't looking good for @, with its stock price approaching a 52 Week Low!"],
 	"lowVolume" : ["@ has an average trading volume below 10 000 shares, beware of getting in and out of this stock!", "Warning! @ has an average trading volume below 10 000 shares, it could be difficult to get in and out of this stock"],
