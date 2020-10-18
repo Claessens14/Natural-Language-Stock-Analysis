@@ -1,4 +1,4 @@
-# Natural Language Stock Analysis
+# Natural Language Stock Analysis 🍂
 Natural Language interpreter of important stock data points.  
 ![multi-media](./assets/screen-capture-mov.gif)
 
